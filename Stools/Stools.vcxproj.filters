@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\ImGui">
+      <UniqueIdentifier>{aa6d7b65-1972-4665-bd40-56b90579b470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ImGui">
+      <UniqueIdentifier>{0d49498b-2fab-4076-ba7a-9d6e74a1f514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Menu">
+      <UniqueIdentifier>{3cad7b6e-e93a-41ef-a9c2-6dd24dadb40a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\SDK">
+      <UniqueIdentifier>{8a1cf59e-96f8-49a6-8b9d-4379b71de47f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Render\Renderer.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui_demo.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui_draw.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImGui\imgui_impl_dx9.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Menu\stools_menu.h">
+      <Filter>Файлы заголовков\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\ivrenderview_fix.h">
+      <Filter>Файлы заголовков\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\cdll_int_fix.h">
+      <Filter>Файлы заголовков\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Interface.h">
+      <Filter>Файлы заголовков\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imconfig.h">
+      <Filter>Файлы заголовков\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imgui.h">
+      <Filter>Файлы заголовков\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imgui_impl_dx9.h">
+      <Filter>Файлы заголовков\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\imgui_internal.h">
+      <Filter>Файлы заголовков\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\stb_rect_pack.h">
+      <Filter>Файлы заголовков\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\stb_textedit.h">
+      <Filter>Файлы заголовков\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImGui\stb_truetype.h">
+      <Filter>Файлы заголовков\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\L4D2_SDK.h">
+      <Filter>Файлы заголовков\SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
